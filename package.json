@@ -1,0 +1,23 @@
+
+{
+  "name": "anime-2embed-api",
+  "version": "1.0.0",
+  "description": "API untuk mengambil data anime dari 2embed.cc",
+  "main": "api-anime-2embed.js",
+  "scripts": {
+    "start": "node api-anime-2embed.js",
+    "dev": "nodemon api-anime-2embed.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
